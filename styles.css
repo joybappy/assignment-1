@@ -313,3 +313,8 @@
      text-decoration: none;
      color: gray;
  }
+
+ .he:hover {
+     background-color: #4d47ffc5;
+     color: black;
+ }
