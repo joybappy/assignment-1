@@ -255,11 +255,13 @@
      margin: 10px 0;
      border-radius: 10px;
      border: 1px solid rgba(128, 128, 128, 0.404);
+     padding: 20px;
+
  }
 
  form button {
      height: 62px;
-     width: 350px;
+     width: 392px;
      border-radius: 10px;
      border: none;
      background-color: #4E47FF;
@@ -273,6 +275,7 @@
      border-radius: 10px;
      margin-top: 10px;
      border: 1px solid rgba(128, 128, 128, 0.404);
+     padding: 20px;
  }
 
  /* get in touch section ends */
