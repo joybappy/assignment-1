@@ -308,3 +308,8 @@
      margin-bottom: 50px;
      text-align: center;
  }
+
+ .td {
+     text-decoration: none;
+     color: gray;
+ }
