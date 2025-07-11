@@ -284,7 +284,9 @@
  /* footer section starts */
  .footer-container {
      text-align: center;
-     margin-bottom: 0;
+     margin: 80px 0 0 0;
+     background-color: whitesmoke;
+     border: 1px solid white;
  }
 
  .footer-container h1 {
