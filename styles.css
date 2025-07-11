@@ -12,13 +12,13 @@
      margin: 0 auto;
  }
 
+ /* header background image */
  .header-background {
      background-image: url('assets/Hero-bg.png');
      height: 698px;
  }
 
- .nav-bar-container {}
-
+ /* navbar parent */
  .nav-bar {
 
      margin: 0 auto;
@@ -28,12 +28,14 @@
      align-items: center;
  }
 
+ /* nave bar child */
  .nav-bar .logo {
      color: #4E47FF;
      font-size: 34px;
      font-weight: bolder;
  }
 
+ /* nav bar child */
  .nav-bar .signup-btn {
      background-color: #4E47FF;
      height: 48px;
@@ -44,6 +46,8 @@
      font-weight: bold;
  }
 
+
+ /* banner parent */
  .banner {
 
      width: 905px;
@@ -52,11 +56,13 @@
      text-align: center;
  }
 
+ /* banner child text*/
  .banner .heading {
      font-size: 65px;
      font-weight: bold;
  }
 
+ /* banner child button */
  .stayfocused-btn {
      width: 174px;
      height: 48px;
@@ -67,6 +73,8 @@
      border-radius: 10px;
  }
 
+
+ /* action and launch preview parent */
  .action {
      border: 1px solid tomato;
      display: flex;
@@ -75,6 +83,7 @@
      margin-bottom: 116px;
  }
 
+ /* action and launch preview child image */
  .right-item {
      align-items: center;
  }
@@ -99,6 +108,8 @@
      color: white;
  }
 
+
+ /* productive user section starts */
  .productive-user-container {
      border: 1px solid tomato;
      background-color: #4d47ff1f;
@@ -111,6 +122,8 @@
      text-align: center;
  }
 
+
+ /* parent productive user container  */
  .user-data-container {
      display: flex;
      justify-content: space-around;
@@ -133,12 +146,15 @@
      padding-top: 0;
  }
 
+ /* user review section */
  .user-say {
      font-weight: bold;
      font-size: 42px;
      text-align: center;
  }
 
+
+ /* rating card container parent */
  .user-rating-container {
      display: flex;
      justify-content: space-between;
@@ -177,3 +193,5 @@
  .profile-image img {
      border-radius: 50%;
  }
+
+ /* user rating section ends */
