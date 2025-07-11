@@ -132,3 +132,48 @@
      margin-top: 0;
      padding-top: 0;
  }
+
+ .user-say {
+     font-weight: bold;
+     font-size: 42px;
+     text-align: center;
+ }
+
+ .user-rating-container {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+ }
+
+ .user-rating-card {
+     border: none;
+     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 10px;
+     height: 200px;
+     width: 320px;
+     padding: 24px;
+ }
+
+ .profile-section {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     padding: 0;
+     margin: 0;
+ }
+
+ .profile-detail h3 {
+     margin: 0;
+     padding: 0;
+     color: rgba(0, 0, 0, 0.582);
+ }
+
+ .profile-detail p {
+     margin: 0;
+     padding: 0;
+     color: rgba(0, 0, 0, 0.473);
+ }
+
+ .profile-image img {
+     border-radius: 50%;
+ }
