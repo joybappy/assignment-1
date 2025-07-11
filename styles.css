@@ -151,6 +151,7 @@
      font-weight: bold;
      font-size: 42px;
      text-align: center;
+
  }
 
 
@@ -195,3 +196,82 @@
  }
 
  /* user rating section ends */
+
+
+ /* ready to focus banner starts */
+ .ready-focus-banner-container {
+     margin-top: 145px;
+     margin-bottom: 92px;
+     padding: 71px 150px;
+     text-align: center;
+     background-color: whitesmoke;
+     border-radius: 14px;
+
+ }
+
+ .ready-focus-banner-container h1 {
+     font-size: 50px;
+     font-weight: bold;
+     margin-bottom: 0;
+ }
+
+ .ready-focus-banner-container h6 {
+     color: rgba(0, 0, 0, 0.445);
+     margin-top: 10px;
+ }
+
+ .ready-focus-banner-container button {
+     font-weight: 500;
+     height: 48px;
+     width: 195px;
+     background-color: #4E47FF;
+     color: white;
+     border-radius: 10px;
+     border: none;
+     margin-bottom: 20px;
+ }
+
+ /* ready to focus banner ends */
+
+
+ /* get in touch section starts */
+ .get-touch {
+     border: 1px solid tomato;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .left-heading h1 {
+     font-size: 97px;
+     font-weight: bold;
+ }
+
+ .email-area,
+ .name-area {
+     height: 50px;
+     width: 350px;
+     margin: 10px 0;
+     border-radius: 10px;
+     border: 1px solid rgba(128, 128, 128, 0.404);
+ }
+
+ form button {
+     height: 62px;
+     width: 350px;
+     border-radius: 10px;
+     border: none;
+     background-color: #4E47FF;
+     color: white;
+     margin-top: 10px;
+
+ }
+
+ textarea {
+     width: 350px;
+     border-radius: 10px;
+     margin-top: 10px;
+     border: 1px solid rgba(128, 128, 128, 0.404);
+ }
+
+ /* get in touch section ends */
