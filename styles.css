@@ -7,6 +7,11 @@
          "wdth" 100;
  }
 
+ .max-width {
+     max-width: 1140px;
+     margin: 0 auto;
+ }
+
  .header-background {
      background-image: url('assets/Hero-bg.png');
      height: 698px;
@@ -63,8 +68,7 @@
  }
 
  .action {
-     max-width: 1140px;
-     margin: 0 auto;
+     border: 1px solid tomato;
      display: flex;
      justify-content: space-between;
      margin-top: 116px;
@@ -93,4 +97,38 @@
      height: 48px;
      width: 239px;
      color: white;
+ }
+
+ .productive-user-container {
+     border: 1px solid tomato;
+     background-color: #4d47ff1f;
+     border-radius: 24px;
+ }
+
+ .productive-user-container h1 {
+     font-size: 38px;
+     font-weight: bold;
+     text-align: center;
+ }
+
+ .user-data-container {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .user-actual-data h1 {
+     color: #4E47FF;
+     font-size: 80px;
+     margin-bottom: 0px;
+     text-align: center;
+     margin: 0;
+     padding: 0;
+ }
+
+ .user-actual-data h4 {
+     color: #00000065;
+     text-align: center;
+     margin-top: 0;
+     padding-top: 0;
  }
